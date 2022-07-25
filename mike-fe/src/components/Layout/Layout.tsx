@@ -11,8 +11,11 @@ type LayoutProps = {
 const Layout = ({ children, header, footer }: LayoutProps) => {
   return (
     <>
-      <header className={styles.horizontalMargin}>{header}</header>
-      <main className={styles.horizontalMargin}>{children}</main>
+      {header}
+      <main className={styles.horizontalMargin}>
+        {children}
+        <p style={{ height: '150vh' }}>ksjdjdjdjdf</p>
+      </main>
       <footer className={styles.horizontalMargin}>{footer}</footer>
     </>
   );

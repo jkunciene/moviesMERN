@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+  --white: rgb(255, 255, 255);
+  --grey: rgb(128, 128, 128);
+
+  --zIndexHeader: 10;
+}
